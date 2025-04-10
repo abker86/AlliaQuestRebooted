@@ -1,3 +1,4 @@
+cursors = this.input.keyboard.createCursorKeys();
 // Horizontal movement
 if (cursors.left.isDown) {
   player.setVelocityX(-300);
